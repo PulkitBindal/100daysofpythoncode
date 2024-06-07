@@ -17,9 +17,11 @@ s.add(3)
 print(s)
 print(type(s))
 # Creating list via for loop
-l=[i for i in range(1,10)]
+l=[i for i in range(1,10)] # Called as List Comprehension 1
 print(l)
 print(type(l))
+lst=[i*i for i in range(10) if i%2==0] # Called as List Comprehension 2
+print(lst) 
 # Declaration of Tuple and Usage
 t=tuple(l)
 print(t)
